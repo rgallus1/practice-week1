@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Practice for week 1</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+<header>
+  <h1>Ballard Neighborhood Veterinary</h1>
+</header>
+<body>
+  <body>
+        <!--<hr class="styled">-->
+      <form id="pet-form">
+          <fieldset>
+            <label for ="petName">Pet Name: </label>
+            <input name = "petName" type="text" size="50" required />
+            <label for ="streetAddress">Street Address: </label>
+            <input name = "streetAddress" type="text" size="50" />
+            <label for ="city">City: </label>
+            <input name = "city" type="text" size="50" />
+            <label for ="state">State: </label>
+            <input name = "state" type="text" size="8" />
+            <label for ="zip">Zip Code: </label>
+            <input name = "zip" type="text" size="10" />
+            <label for ="chipped">Chipped: </label>
+            <input name = "chipped" type="text" size="3" />
+            <button id="petNameButton" type="submit">Create New Patient</button>
+          </fieldset>
+      </form>
+
+      <p id="petName"></p> <!--Information entered-->
+
+      <ul>
+        <li id="yesButton"></li> <!--yes, i want to play-->
+        <li id="noButton"></li> <!--no, i don't want to play-->
+      </ul>
+  <script src="app.js"></script>
+</body>
+</html>
